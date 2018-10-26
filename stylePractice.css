@@ -1,0 +1,166 @@
+/* My code starts here*/
+
+html,body{
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+}
+
+.backgroundImage{
+	width: 100%;
+	height: 500px;
+	margin: auto;
+	background-image: url("wild.jpeg"); 
+	display: table;
+	background-size: cover;
+}
+
+.body-div {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+}
+
+.main-div {
+	width: 100%;
+	height: 100%;
+	margin: 0, auto;	
+}
+
+.space {
+	margin: 10px auto;
+	
+}
+
+
+.main-div h2:hover {
+	font-size: 40px;
+}
+
+/* Style the index.php file*/
+
+.mr-3{
+	size: 100px;
+}
+
+header nav {
+	background-color: #fff;
+	width: 100%;
+	height: 60px;
+}
+
+.home-div {
+	padding-top: 15px; 
+	width: 30%;
+	float: left;
+}
+
+.home-div a {
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+}
+
+.home-div p {
+	margin: auto;
+	display: table;
+	font-size: 24px;
+	text-align: center;
+	text-decoration: none;
+}
+
+
+.form-div {
+	padding-top: 15px;
+	width: 70%;
+	float: right;
+}
+
+.form-div form {
+	float: left;
+}
+
+.form-div a {
+	float: left;
+	margin-left: 10px;
+}
+
+.form-div form input {
+	background-color: #ccc;
+	margin-left: 10px;
+	padding-left: 4px;
+	width: 200px;
+	height: 20px;
+}
+
+.form-div form button {
+	background-color: #d6d6c2;
+	border: none;
+	margin: 0px 10px;
+	padding: 0px, 4px;
+	width: 70px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.form-div form .form-div-logout{
+	margin-right: 30px;
+}
+
+.form-div form button:hover {
+	background-color: #ccc;
+	
+}
+
+header nav a {
+	float: right;
+	display: block;
+	font-size: 18px;
+	font-weight: 20px;
+	text-decoration: none;
+}
+
+
+
+/* Styling the signupForm page */
+section {
+	text-align: center;
+	padding-top: 70px;
+	font-size: xx-large;
+}
+
+/*.submit-div{
+	padding-top: 100px;
+}*/
+.submit-div h2{
+	padding-bottom: 10px;
+	font-family: ariel;
+
+}
+
+.submit-div input{
+	width: 40%;
+	height: 30px;
+	margin-bottom: 2px;
+	padding-left: 10px;
+	font-family: Ariel;
+	font-size: 20px;
+}
+
+.submit-div button{
+	width: 100px;
+	height: 30px;
+	padding-left: 4px;
+	font-family: Ariel;
+	font-size: 20px;
+	color: #222;
+	background-color: #ccc;
+}
+
+.signupDiv button:hover{
+	width: 110px;
+	background-color: gray;
+	
+
+}

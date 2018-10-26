@@ -1,0 +1,218 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+ margin:0;
+ padding:0;
+ border:0;
+ outline:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+body {
+ line-height:1;
+ width: 100%;
+ height: 100%;
+ margin: auto;
+ background: url(https://static.pexels.com/photos/26206/pexels-photo.jpg)no-repeat 50% 50% ;
+ display: table;
+ top: 0;
+ background-size: cover;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+ display:block;
+}
+nav ul {
+ list-style:none;
+}
+blockquote, q {
+ quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content:'';
+ content:none;
+}
+a {
+ margin:0;
+ padding:0;
+ font-size:100%;
+ vertical-align:baseline;
+ background:transparent;
+}
+/* change colours to suit your needs */
+ins {
+ background-color:#ff9;
+ color:#000;
+ text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+ background-color:#ff9;
+ color:#000; 
+ font-style:italic;
+ font-weight:bold;
+}
+del {
+ text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+ border-bottom:1px dotted;
+ cursor:help;
+}
+table {
+ border-collapse:collapse;
+ border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+ display:block;
+ height:1px;
+ border:0; 
+ border-top:1px solid #cccccc;
+ margin:1em 0;
+ padding:0;
+}
+input, select {
+ vertical-align:middle;
+}
+
+/* My Code*/
+/* Styling the index file */
+.body-div {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.main-div {
+	width: 100%;
+	height: 100%;
+	margin: auto;
+	
+}
+
+.main-div h2:hover {
+	font-size: 40px;
+}
+
+
+header nav {
+	background-color: #fff;
+	width: 100%;
+	height: 60px;
+}
+
+.home-div {
+	padding-top: 20px; 
+	width: 30%;
+	float: left;
+}
+
+.home-div a {
+	font-size: 18px;
+	text-align: center;
+	text-decoration: none;
+}
+
+	
+
+.form-div {
+	padding-top: 15px;
+	width: 70%;
+	float: right;
+}
+
+.form-div form {
+	float: left;
+}
+
+.form-div form input {
+	background-color: #ccc;
+	margin-left: 10px;
+	padding-left: 4px;
+	width: 200px;
+	height: 20px;
+}
+
+.form-div form button {
+	background-color: #d6d6c2;
+	border: none;
+	margin: 0px 10px;
+	padding: 0px, 4px;
+	width: 70px;
+	height: 25px;
+	cursor: pointer;
+}
+
+.form-div form button:hover {
+	background-color: #ccc;
+	
+}
+
+header nav a {
+	float: right;
+	display: block;
+	font-size: 18px;
+	font-weight: 20px;
+	text-decoration: none;
+}
+
+
+
+/* Styling the signupForm page */
+section {
+	text-align: center;
+	padding-top: 70px;
+	font-size: xx-large;
+}
+
+.submit-div h2{
+	padding-bottom: 10px;
+	font-family: ariel;
+
+}
+
+.submit-div input{
+	width: 40%;
+	height: 30px;
+	margin-bottom: 2px;
+	padding-left: 10px;
+	font-family: Ariel;
+	font-size: 20px;
+}
+
+.submit-div button{
+	width: 100px;
+	height: 30px;
+	padding-left: 4px;
+	font-family: Ariel;
+	font-size: 20px;
+	color: #222;
+	background-color: #ccc;
+}
+
+.submit-div button:hover{
+	width: 110px;
+	background-color: gray;
+	
+
+}
